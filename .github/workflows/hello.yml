@@ -34,3 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      # Runs a single command to print out the data
+      - name: Run a date script
+        run: |
+          date
+          
+      # Runs a command to list the contents of a directory
+      - name: Run an ls script
+        run: ls
