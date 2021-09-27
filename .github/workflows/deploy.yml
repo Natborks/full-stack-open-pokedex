@@ -16,3 +16,5 @@ jobs:
           heroku_app_name: "rocky-cliffs-83438" #Must be unique in Heroku
           heroku_email: "natborksdeutsch@yahoo.com"
           healthcheck: "https://rocky-cliffs-83438.herokuapp.com/health"
+          checkstring: "ok"
+          rollbackonhealthcheckfailed: true
